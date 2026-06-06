@@ -8,6 +8,8 @@
     <string>com.cleaner.menu</string>
     <key>CFBundleName</key>
     <string>CleanerMenu</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>© STAGSTER LABS</string>
     <key>CFBundleVersion</key>
     <string>1.0</string>
     <key>CFBundleShortVersionString</key>

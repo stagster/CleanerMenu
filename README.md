@@ -1,4 +1,6 @@
-# CleanerMenu 🧹
+# 🧹 CleanerMenu
+
+> **A STAGSTER LABS product** — [github.com/stagster/CleanerMenu](https://github.com/stagster/CleanerMenu)
 
 **macOS menu bar app** — live system stats + one-click cleanup. Made for developers, designers, and especially **vibe coders** running AI tools (Claude Code, Cursor, ChatGPT) that eat RAM and leave stale dev servers running.
 

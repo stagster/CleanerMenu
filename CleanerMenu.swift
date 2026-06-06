@@ -72,6 +72,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         menu.addItem(NSMenuItem.separator())
 
+        let brandItem = NSMenuItem(title: "🧹 CleanerMenu · STAGSTER LABS", action: nil, keyEquivalent: "")
+        brandItem.attributedTitle = NSAttributedString(string: "  CleanerMenu · STAGSTER LABS", attributes: [
+            .font: NSFont.systemFont(ofSize: 9),
+            .foregroundColor: NSColor.systemGray
+        ])
+        menu.addItem(brandItem)
+
         let quitItem = NSMenuItem(title: "🚪  Quit", action: #selector(NSApp.terminate), keyEquivalent: "q")
         quitItem.target = NSApp
         menu.addItem(quitItem)
